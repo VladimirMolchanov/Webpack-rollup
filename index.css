@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: left;
+    color: #d4b92c;
+    width: 100%;
+    margin-left: 15px;
+}
+
+img {
+    width: 70px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background: #4d4d4d;
+    align-items: center;
+    padding: 20px 80px;
+}
