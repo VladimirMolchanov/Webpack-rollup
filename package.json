@@ -14,6 +14,6 @@
   "author": "Vladimir Molchanov <vladim.molchanov1993@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "rollup": "^2.59.0"
-  }
+  },
+  "dependencies": {}
 }
