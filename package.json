@@ -4,8 +4,7 @@
   "description": "Course on JavaScript. Lesson 18. Rollup",
   "main": "src/index.js",
   "scripts": {
-    "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +13,8 @@
   "author": "Vladimir Molchanov <vladim.molchanov1993@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
   },
   "dependencies": {}
 }
