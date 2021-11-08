@@ -1,0 +1,19 @@
+{
+  "name": "web_project_rollup",
+  "version": "1.0.0",
+  "description": "Course on JavaScript. Lesson 18. Rollup",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirMolchanov/18.-Webpack-rollup.git"
+  },
+  "author": "Vladimir Molchanov <vladim.molchanov1993@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.59.0"
+  }
+}
